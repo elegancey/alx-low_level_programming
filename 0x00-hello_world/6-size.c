@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void)
 {
-	printf("My initials are: %c%c%c and my age is %d.\n", "J", "R", "E", 28);
+	printf("Size of a char: %c%c%c and my age is %d.\n", 1, "byte(s)", "R", "E", 28);
 	return (0);
 }
