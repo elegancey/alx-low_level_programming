@@ -1,23 +1,17 @@
 #include <stdio.h>
-/**
-*
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+#include <stdlib.h>
+#include <time.h>
 
 int main(void)
-
 {
+	char letter;
 
-		char low;
+	for (letter =='a', letter <= 'z', letter ++)
+	{
+		putchar(letter);
 
-		for (low = 'a'; low <= 'z'; low++)
-			putchar(low);
-			putchar('\n');
+	putchar("\n");
 
-		return (0);
+	return (0);
+	}
 }
