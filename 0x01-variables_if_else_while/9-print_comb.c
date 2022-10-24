@@ -10,10 +10,17 @@
 int main(void)
 {
 	int number;
-	putchar(44);
 
-	for (number = '0'; number <= '9'; number++)
-		putchar(number,44);
+	for (number = 0; number <= 9; number++)
+	{
+		putchar((num % 10) + '0');
+		
+		if (num == 9)
+			continue;
+		
+		putchar(',');
+		putchar(' ');
+	}
 	putchar('\n');
 
 	return (0);
