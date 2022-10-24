@@ -10,7 +10,7 @@
 int main(void)
 {
 	int number, lik;
-	lik = ", "
+	lik = ", ";
 
 	for (number = '0'; number <= '9'; number++)
 		putchar(number);
