@@ -11,7 +11,7 @@ int main(void)
 	for (number = 0; number <= 9; number++)
 	{
 		putchar((number % 10) + '0');
-		if (number == 0 || number <= 9)
+		if (number == 0 || number == 9)
 			continue;
 
 		putchar(',');
