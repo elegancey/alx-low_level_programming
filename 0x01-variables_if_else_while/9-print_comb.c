@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int number, lik;
-	lik = ", ";
+	int number;
 
 	for (number = '0'; number <= '9'; number++)
 		putchar(number);
-		putchar(lik);
+		putchar(',');
+		putchar(' ');
 	putchar('\n');
 
 	return (0);
