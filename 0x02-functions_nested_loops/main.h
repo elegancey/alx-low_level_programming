@@ -5,10 +5,4 @@
  *
  * Return: Always 0
  */
-{
-	char n = "_putchar";
-
-	putchar(n);
-
-	return (0);
-}
+int main(void)
