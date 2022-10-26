@@ -10,13 +10,10 @@ int _isalpha(int c)
 	char n;
 	for (n = 'a'; n <= 'z'; n++)
 	{
-		if (isalpha(n))
-		{
+		if (_isalpha())
+		
 			return (1);
-		}
 		else
-		{
 			return (0);
-		}
 	}
 }
