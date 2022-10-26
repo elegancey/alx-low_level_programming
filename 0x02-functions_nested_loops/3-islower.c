@@ -1,5 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * _islower - Checks for lowercase
+ *
+ * Return: returns 1 if low and 0 otherwise
+ */
+
 int _islower(int c)
 
 {
