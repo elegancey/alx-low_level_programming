@@ -1,11 +1,13 @@
+/*
+ * File: 3-print_numbers.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "main.h"
 #include <stdio.h>
 
 /**
- * print_numbers - a function that prints the numbers, from 0 to 9,
- * followed by a new line.
- *
- * Return: Always 0
+ * print_numbers - Prints the numbers from 0-9.
  */
 
 void print_numbers(void)
